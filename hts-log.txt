@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 17 Nov 2020 12:34:14 at https://connectmed.co.ke/doctor +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://connectmed.co.ke/doctor -O1 "C:\Users\THIS PC\Desktop\Doctors" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:41:35	Warning: 	Link https://connectmed.co.ke/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+12:41:37	Error: 	"Not Found" (404) at link js.hs-scripts.com/1889461.js (from https://connectmed.co.ke/doctor)
+12:41:37	Error: 	"Not Found" (404) at link https://connectmed.co.ke/assets/star2.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:41:37	Error: 	"Not Found" (404) at link https://connectmed.co.ke/images/patterns/header-profile.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:41:37	Error: 	"Not Found" (404) at link https://connectmed.co.ke/images/patterns/shattered.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:41:37	Warning: 	Retry after error -2 (Receive Time Out) at link https://connectmed.co.ke/assets/landings/header14-0047906ed1b59f826ec3da04562c2ae0f3d8b046d73e9a52f4373e557c0f17dc.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:41:37	Warning: 	Retry after error -2 (Receive Time Out) at link https://connectmed.co.ke/assets/landings/header2-bdf751693b2986e57c1e1d9b4527c4f267a827c501b6fd40da31d5a3db3c1e7c.jpg (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:42:01	Error: 	"Not Found" (404) at link https://connectmed.co.ke/images/landings/clinic2pink.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:42:01	Error: 	"Not Found" (404) at link https://connectmed.co.ke/assets/patterns/header-profile-skin-1.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:42:01	Error: 	"Not Found" (404) at link https://connectmed.co.ke/assets/patterns/header-profile-skin-3.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:42:01	Error: 	"Not Found" (404) at link https://connectmed.co.ke/assets/patterns/header-profile-skin-2.png (from https://connectmed.co.ke/assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css)
+12:42:25	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://connectmed.co.ke/doctor_profiles/edwine_odwori (from https://connectmed.co.ke/doctor_profiles)
+12:42:51	Error: 	"Not Found" (404) at link https://connectmed.co.ke/imasges/original/missing.png (from https://connectmed.co.ke/practices/39)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 37 seconds : 144 links scanned, 131 files written (23829384 bytes overall) [20196324 bytes received at 39064 bytes/sec], 5134883 bytes transferred using HTTP compression in 60 files, ratio 24%, 3.6 requests per connection
+(9 errors, 4 warnings, 0 messages)

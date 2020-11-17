@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from connectmed.co.ke/doctor/signup by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Nov 2020 09:42:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ConnectMed Kenya is an online medical practice that allows patients to seek treatement from doctors over video, supported by machine learning-based tools.">
+<meta name="author" content="ConnectMed Kenya">
+<meta name="keywords" content="connectmed kenya, connectmed africa, connectmed, doctor nairobi, doctor kenya" />
+
+    <title>Clinical officer signup | ConnectMed | Online doctor consults for Kenya</title>
+
+    <script>
+//<![CDATA[
+window.gon={};gon.mixpanel_token="01c58ab0153feded2cb1d0e1d46b0554";gon.hotjar_site_id="401461";
+//]]>
+</script>
+    <!-- Include style per-controller - vendor plugins -->
+    
+    <!-- Main css styles -->
+    <link rel="stylesheet" media="all" href="../assets/application-c18a6126ca13fb46f829f0a393b19919123fe4e8a8857b65a9a1f5d92a66b16d.css" data-turbolinks-track="true" />
+    <!-- Main javascript files -->
+    <script src="../assets/application-5f43f4bfbeb3ef3eff11e0223420b962dadfd8bf40b65bd52f58316cb2750206.js" data-turbolinks-track="true"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="N664UfFOMm4dZxdPs+wvND8CHx97vFAF/+c4vPwIAHeGQ0NVhYRdQGL6+mapvoEGf498OYbWIQD8r0XWH2sHAA==" />
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','../../connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '361161627592475'); // Insert your pixel ID here.
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=361161627592475&amp;ev=PageView&amp;noscript=1"
+/>
+</noscript>
+<script>
+  fbq('track', 'Search', {
+  search_string: 'leather sandals'
+  });
+</script>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ed621b74a7c62581799c092/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
+<!-- REFACTOR: Better name this file -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162868020-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'UA-162868020-1');
+</script>
+
+  </head>
+  <body class="gray-bg">
+    <!-- Main view  -->
+    <div class="middle-box text-center loginscreen   animated fadeInDown">
+  <div>
+    <a class="" href="../index.html"><img width="80%" style="margin-bottom:10px;" src="../assets/logos/CMLogoVertical5-1cb81fa10fcfa1dd8250f6742794756029c272e2b96dd1740e34a7938a735e01.png" alt="Cmlogovertical5" /></a>
+    <form class="new_doctor" id="new_doctor" enctype="multipart/form-data" action="https://connectmed.co.ke/doctor/doctors" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pujrPkT6bA8sf/ATERUAC9EXgtGQj8lJkzzP7MN6fogXBRA6MDADIVPiHToLR645kZrh923luEyQdLKGIBl5/w==" />
+      <div class="form-group">
+        <input required="required" class="form-control" placeholder="First Name" type="text" name="doctor[first_name]" id="doctor_first_name" />
+      </div>
+      <div class="form-group">
+        <input required="required" class="form-control" placeholder="Last Name" type="text" name="doctor[last_name]" id="doctor_last_name" />
+      </div>
+      <div class="form-group">
+        <input required="required" class="form-control" placeholder="Email" type="email" name="doctor[email]" id="doctor_email" />
+      </div>
+      <div class="form-group">
+        <input class="form-control bfh-phone" id="doctor_phone" name="doctor[phone]" placeholder="ddd-ddd-ddd" type="text" data-format="+254 ddd-ddd-ddd">
+      </div>
+      <div class="form-group">
+        <input class="form-control" id="street_address" placeholder="Practice or Personal Address" type="text" required>
+        <div class="col-xs-6" style="padding:0">
+          <input class="form-control" id="city" placeholder="City" type="text" required>
+        </div>
+        <div class="col-xs-6" style="padding:0;padding-bottom:10px">
+          <input class="form-control" id="postal_code" placeholder="Postal Code" type="text" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <input required="required" class="form-control" placeholder="KMPDB Registration Number" type="text" name="doctor[practice_number]" id="doctor_practice_number" />
+      </div>
+      <div class="form-group">
+        <input required="required" class="form-control" placeholder="Password" type="password" minlength="6" name="doctor[password]" id="doctor_password" />
+        <input required="required" class="form-control" placeholder="Confirm Password" type="password" equalTo="#doctor_password" name="doctor[password_confirmation]" id="doctor_password_confirmation" />
+      </div>
+      <div class="form-group">
+        <label for="doctor_image">Your Photo</label>:
+        <input required="required" class="form-control" type="file" name="doctor[image]" id="doctor_image" />
+      </div>
+      <div class="form-group">
+        <input type="radio" value="female" name="doctor[gender]" id="doctor_gender_female" />
+        <label for="gender_female">Female</label>
+        <input type="radio" value="male" name="doctor[gender]" id="doctor_gender_male" />
+        <label for="gender_male">Male</label>
+      </div>
+      <div class="checkbox" style="padding-bottom:10px;"><label><i></i><input type="checkbox" required><button type="button" class="btn btn-link" data-toggle="modal" data-target="#termsModal" style="padding:0px;">Agree to the Terms & Conditions</button></label></div>
+      <div class="modal inmodal" id="termsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content animated fadeIn">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <i class="fa fa-clock-o modal-icon"></i>
+              <h4 class="modal-title">ConnectMed Clinical officer Terms & Conditions</h4>
+              <small>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY
+              </small>
+            </div>
+            <div class="modal-body" style="max-height: 350px; overflow-y: auto;">
+              <p><strong>1. NATURE AND APPLICABILITY OF TERMS</strong></p>
+<p>1.1 These terms and conditions apply to and govern your access to and use of this website ("Website"). By using the web website, you agree to be bound by these terms and conditions and to use the website in accordance with these terms and conditions, our Privacy Policy, and any additional terms and conditions that are referenced herein or that otherwise may apply to specific sections of the website, or to products and services that we make available to you through the web website (all of which are deemed part of these terms and conditions). Accessing this website in any manner, whether automated or otherwise, constitutes use of the website and your agreement to be bound by these terms and conditions. If you do not agree, or are dissatisfied with any aspect of these terms and conditions, you may not make use of our website or any of our services.</p>
+<p>1.2 These Terms and Conditions may be altered at ConnectMed&rsquo;s sole discretion from time to time and we advise that you read through them every time you access the website and/or the services.</p>
+<p>1.3 Please carefully read these terms and conditions&nbsp;("Terms")&nbsp;before you decide to access the Website.</p>
+<p>1.4 These Terms constitute a legal agreement&nbsp;between you and ConnectMed in connection with your visit to the Website and your use of the Services (as defined below).</p>
+<p>1.5 By accessing the Services, you confirm having read these Terms and Conditions carefully, and understood the risks and benefits of the teleconferencing consultation and you give your informed consent to participate in a telemedicine visit under the terms described herein.</p>
+<p>1.6 By checking the box containing "Agree to the Terms &amp; Conditions" you hereby state that you have read, understood, and agree to the terms of this document.</p>
+<p>1.7 ConnectMed Limited, registration number PVT/2016/03277 and trading as ConnectMed ("ConnectMed", "we", "us", or "our"), operates the websites located at connectmed.co.ke and connectmed.herokuapp.com. We offer online telemedicine services (the "Services") enabling you ("You") to report your health history and engage healthcare professionals ("healthcare professionals") to obtain medical and healthcare services ("Services"). ConnectMed does not practice medicine or any other licensed profession, and does not interfere with the practice of medicine or any other licensed profession by healthcare professionals, each of whom is responsible for his or her services and compliance with the requirements applicable to his or her profession and license. Neither ConnectMed nor any third parties who promote the Services or provide you with a link to the Services shall be liable for any professional advice you obtain from a healthcare professional via the Services.</p>
+<p>1.8 The Agreement applies to you whether you are a medical practitioner or health care provider (whether an individual professional or an organization) or similar institution wishing to be listed, or already listed, on theWebsite, including designated, authorized associates of such practitioners or institutions&nbsp;("Practitioner(s)", "you" or "User").</p>
+<p>1.9 This Agreement applies to all services made available by ConnectMed on the Website.</p>
+<p>1.10 The Patients Terms and Conditions available on the Website - www.connectmed.co.ke -shall apply where the context so admits, and where not contrary to these Terms and Conditions, be deemed to be part of these Terms and Conditions and apply mutatis mutandis to the Users under these Terms and Conditions.</p>
+<p>1.11 These Terms and Conditions shall be effective from the date the Practitioner requests to or accepts to, as the case may be, provide the Services and shall continue to be effective until the termination of the Practitioners engagement with ConnectMed save that this shall be without prejudice to the continuing legal obligations of the Practitioner including but not limited to confidentiality.</p>
+<p><strong>2. INTERPRETATION</strong></p>
+<p>In these Terms and Conditions, the following expressions shall bear the meanings assigned to them below and similar expressions shall bear corresponding meanings &ndash;</p>
+<p>2.1 "Available" - Block(s) during which a Practitioner has requested that he / she be advised of patients waiting for appointments without committing that he / she will be available to provide Services to a patient; or anytime during which the Practitioner logs onto the Platform and confirms his or her availability to provide Services via the Platform.</p>
+<p>2.2 Available for Appointment" &ndash; Block(s) during which the Practitioner commits to avail himself to consult with patients who may book a consult with a Practitioner via the Platform.</p>
+<p>2.3 Block &ndash; a period of 3 (three) hours.</p>
+<p>2.4 "ConnectMed" &ndash; ConnectMed Ltd,. a Company duly incorporated in accordance with the laws of Kenya with offices at #17 Rumi Road, South C, Nairobi, Kenya.</p>
+<p>2.5 "Committed" &ndash; Block(s) during which the Practitioner has committed to rendering Services via the Platform.</p>
+<p>2.6 &lsquo;Clinical officer&rsquo;, &lsquo;Medical Practitioner&rsquo;, &lsquo;Practitioner&rsquo; and/or &lsquo;Healthcare professional&rsquo; - a person licenced in Kenya to provide health care in all forms including but not limited to physicians, nurses, nutritionists, physiotherapists and specialists.</p>
+<p>2.7 "On Standby" - Block(s) during which the Practitioner has committed to rendering Services via the Platform if notified by ConnectMed</p>
+<p>2.8 "Prescribed Area" &ndash; each region in Kenya in which ConnectMed:</p>
+<p>i) Does business as at the termination date or in which ConnectMed had done business during the period of 24 (twenty-four) months preceding the termination date; and/or</p>
+<p>ii) Has patients as at the termination date, or in which ConnectMed had patients during the period of 24 (twenty-four) months preceding the termination date.</p>
+<p>2.9 "Personal Information"- is defined as medical history and health related information which the Platform will process regularly which includes but is not limited to:</p>
+<p>i) information relating to the race, gender, sex, pregnancy, marital status, national, ethnic or social origin, colour, sexual orientation, age, physical or mental health, well-being, disability, religion, conscience, belief, culture, language and birth of the individual;</p>
+<p>ii) information relating to the education or the medical, criminal or employment history of the individual or information relating to financial transactions in which the individual has been involved;</p>
+<p>iii) any identifying number, symbol, or other particular assigned to the individual;</p>
+<p>iv) the address, fingerprints or blood type of the individual;</p>
+<p>v) the personal opinions, views or preferences of the individual, except where they are about another individual or about a proposal for a grant, an award or a prize to be made to another individual;</p>
+<p>vi) correspondence sent by the individual that is implicitly or explicitly of a private or confidential nature of further correspondence that would reveal the contents of the original correspondence;</p>
+<p>vii) the name of the individual where it appears with other personal information relating to the individual or where the disclosure of the name itself would reveal information about the individual, but excludes information about an individual who has been dead for more than 20 (twenty) years.</p>
+<p>2.10 "Platform" &ndash; ConnectMed&rsquo;s web and mobile (Android and iOS) applications through which ConnectMed aims to facilitate secure online virtual medical consultations between the Practitioner and a patient.</p>
+<p>2.11 "Services"- As set out in terms of clause 5 (five) below which include online telemedicine services enabling patients to report their health history and engage healthcare professionals to obtain medical and healthcare services.</p>
+<p><strong>3. INTRODUCTION </strong></p>
+<p>3.1 ConnectMed requires the services of a qualified health practitioner who is registered with the Kenya Medical Practitioners and Dentists Board (KMPDB) to perform the Services.</p>
+<p>3.2 The Practitioner warrants that he/she has the required expertise and has agreed to provide the Services on the terms and conditions set out in this Agreement and further warrants that he/she is adequately registered with the KMPDB in order to lawfully provide the Services set out herein and that they are not the subject of any active disciplinary proceedings with KMPDB or of any court proceedings in respect of their professional practice. The Practitioner makes this warranty at every instance of provision of the Services.</p>
+<p>3.3 No modification or variation of these terms and conditions shall be effective unless a Director of ConnectMed consents in writing to such modification or variation.</p>
+<p><strong>4. CONCERNING CONNECTMED Clinical officer DIRECTORY LISTING CONTENT AND DISSEMINATING INFORMATION</strong></p>
+<p>4.1 Information Policy</p>
+<p>i) ConnectMed collects, directly or indirectly, and displays on the Website, relevant information regarding the profile and practice of the Practitioners listed on the Website, such as their specialization, qualification, fees, location, visiting hours, and similar details. ConnectMed takes reasonable efforts to ensure that such information is updated at frequent intervals. Although ConnectMed screens and vets the information and photos submitted by the Practitioners, it cannot be held liable for any inaccuracies or incompleteness represented from it, despite such reasonable efforts.</p>
+<p>ii) The Services provided by ConnectMed or any of its licensors or service providers are provided on an "as is" and "as available" basis, and without any warranties or conditions (express or implied, including the implied warranties of merchantability, accuracy, fitness for a particular purpose, title and non-infringement, arising by statute or otherwise in law or from a course of dealing or usage or trade). ConnectMed does not provide or make any representation, warranty or guarantee, express or implied about the Website or the Services. ConnectMed does not guarantee the accuracy or completeness of any content or information provided by Users on the Website. To the fullest extent permitted by law, ConnectMed disclaims all liability arising out of the User&rsquo;s use or reliance upon the Website, the Services, representations and warranties made by other Users, the content or information provided by the Users on the Website, or any opinion or suggestion given or expressed by ConnectMed or any User in relation to any User or services provided by such User.</p>
+<p>iii) The Website may be linked to the website of third parties, affiliates and business partners. ConnectMed has no control over, and is not liable or responsible for content, accuracy, validity, reliability, quality of such websites or made available by/through our Website. Inclusion of any link on the Website does not imply that ConnectMed endorses the linked site. User may use the links and these services at User&rsquo;s own risk.</p>
+<p>iv) ConnectMed assumes no responsibility, and shall not be liable for, any damages to, or viruses that may infect User&rsquo;s equipment on account of User&rsquo;s access to, use of, or browsing the Website or the downloading of any material, data, text, images, video content, or audio content from the Website. If a User is dissatisfied with the Website, User&rsquo;s sole remedy is to discontinue using the Website.</p>
+<p>v) If ConnectMed determines that you have provided fraudulent, inaccurate, or incomplete information, including through feedback, ConnectMed reserves the right to immediately suspend your access to the Website or any of your accounts with ConnectMed and makes such declaration on the website alongside your name as determined by ConnectMed for the protection of its business and in the interests of Users. You shall be liable to indemnify ConnectMed for any losses incurred as a result of your misrepresentations or fraudulent feedback that has adversely affected ConnectMed or its Users.</p>
+<p>vi) ConnectMed uses industry&ndash;level security and encryption to your user account. However, ConnectMed does not guarantee to prevent unauthorized access if you lose your login credentials or they are otherwise compromised. In the event you are aware of any unauthorized use or access, you shall immediately inform ConnectMed of such unauthorized use or access. Please safeguard your login credentials and report any actual suspected breach of account to <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="2c5f595c5c435e586c6f434242494f58614948024f4302474902">[email&#160;protected]</a></p>
+<p>4.2 Listing Policy</p>
+<p>i) ConnectMed, directly and indirectly, collects information regarding the Practitioners&rsquo; profiles, contact details, and practice. ConnectMed reserves the right to take down any Practitioner&rsquo;s profile as well as the right to display the profile of the Practitioners, with or without notice to the concerned Practitioner. This information is collected for the purpose of facilitating interaction with the End-Users (patients) and other Users. If any information displayed on the Website in connection with you and your profile is found to be incorrect, you are required to inform ConnectMed immediately to enable ConnectMed to make the necessary amendments.</p>
+<p>ii) ConnectMed shall not be liable or responsible for the ranking of the Practitioners on external websites and search engines.</p>
+<p>iii) ConnectMed shall not be responsible or liable in any manner to the Users for any losses, damage, injuries or expenses incurred by the Users as a result of any disclosures or publications made by ConnectMed, where the User has expressly or implicitly consented to the making of disclosures or publications by ConnectMed. If the User had revoked such consent under the terms of the Privacy Policy, then ConnectMed shall not be responsible or liable in any manner to the User for any losses, damage, injuries or expenses incurred by the User as a result of any disclosures made by ConnectMed prior to its actual receipt of such revocation.</p>
+<p>iv) ConnectMed reserves the right to moderate the suggestions made by the Practitioners through feedback and the right to remove any abusive or inappropriate or promotional content added on the Website. However, ConnectMed shall not be liable if any inactive, inaccurate, fraudulent, or non- existent profiles of Practitioners are added to the Website.</p>
+<p>v) Practitioners explicitly agree that ConnectMed reserves the right to publish the Content provided by Practitioners to a third party including content platforms.</p>
+<p>vi) You as a Practitioner hereby represent and warrant that you will use the Services in accordance with applicable law. Any contravention of applicable law as a result of your use of these Services is your sole responsibility, and ConnectMed accepts no liability for the same.</p>
+<p><strong>5. PROFILE OWNERSHIP AND EDITING RIGHTS</strong></p>
+<p>ConnectMed ensures easy access to the Practitioners by providing a tool to update your profile information. ConnectMed reserves the right of ownership of all the Practitioner&rsquo;s profile and photographs and to moderate the changes or updates requested by Practitioners. However, ConnectMed takes the independent decision whether to publish or reject the requests submitted for the respective changes or updates. You hereby represent and warrant that you are fully entitled under law to upload all content uploaded by you as part of your profile or otherwise while using ConnectMed&rsquo;s services, and that no such content breaches any third party rights, including intellectual property rights. Upon becoming aware of a breach of the foregoing representation, ConnectMed may modify or delete parts of your profile information at its sole discretion with or without notice to you.</p>
+<p><strong>6. REVIEWS AND FEEDBACK DISPLAY RIGHTS OF CONNECTMED</strong></p>
+<p>6.1 All Critical Content is content created by the Users of www.connectmed.co.ke ("Website")&nbsp;and the clients of ConnectMed customers and Practitioners, including the End-Users. As a platform, ConnectMed does not take responsibility for Critical Content and its role with respect to Critical Content is restricted to that of an intermediary. The role of ConnectMed and other legal rights and obligations relating to the Critical Content are further detailed in Clauses 3.9 and 5 of these Terms.</p>
+<p>6.2 ConnectMed reserves the right to collect feedback and Critical Content for all the Practitioners, Clinics and Healthcare Providers listed on the Website.</p>
+<p>6.3 ConnectMed shall have no obligation to pre-screen, review, flag, filter, modify, refuse or remove any or all Critical Content from any Service, except as required by applicable law.</p>
+<p>6.4 You understand that by using the Services you may be exposed to Critical Content or other content that you may find offensive or objectionable. ConnectMed shall not be liable for any effect on Practitioner&rsquo;s business due to Critical Content of a negative nature. In these respects, you may use the Service at your own risk. ConnectMed however, as an intermediary, takes steps as required to comply with applicable law as regards the publication of Critical Content. The legal rights and obligations with respect to Critical Content and any other information sought to be published by Users are further detailed in Clauses 3.9 and 5 of these Terms.</p>
+<p>6.5 ConnectMed will take down information under standards consistent with applicable law, and shall in no circumstances be liable or responsible for Critical Content, which has been created by the Users. The principles set out in relation to third party content in the terms of Service for the Website shall be applicable mutatis mutandis in relation to Critical Content posted on the Website.</p>
+<p>6.6 If ConnectMed determines that you have provided inaccurate information or enabled fraudulent feedback, ConnectMed reserves the right to immediately suspend any of your accounts with ConnectMed and makes such declaration on the website alongside your name/your clinics name as determined by ConnectMed for the protection of its business and in the interests of Users.</p>
+<p><strong>7. INDEPENDENT SERVICES</strong></p>
+<p>Your use of each Service confers upon you only the rights and obligations relating to such Service, and not to any other service that may be provided by ConnectMed.</p>
+<p><strong>8. CONNECTMED REACH RIGHTS</strong></p>
+<p>8.1 ConnectMed reserves the rights to display sponsored ads on the Website. These ads would be marked as "Sponsored ads". Without prejudice to the status of other content, ConnectMed will not be liable for the accuracy of information or the claims made in the Sponsored ads. ConnectMed does not encourage the Users to visit the Sponsored ads page or to avail any services from them. ConnectMed will not be liable for the services of the providers of the Sponsored ads.</p>
+<p>8.2 You represent and warrant that you will use these Services in accordance with applicable law. Any contravention of applicable law as a result of your use of these Services is your sole responsibility, and ConnectMed accepts no liability for the same.</p>
+<p><strong>9. PRACTITIONER NOT AN EMPLOYEE </strong></p>
+<p>9.1 The Practitioner SHALL NOT be deemed to be an agent or employee of ConnectMed or any affiliate of ConnectMed.</p>
+<p>9.2 For the purposes of this Agreement, "affiliate" means any person or entity directly or indirectly controlling, controlled by or under common control with ConnectMed.</p>
+<p>9.3 The Practitioner undertakes not to hold out at any time that he/she represents, acts for or in any other manner whatsoever is associated with ConnectMed or any affiliate of ConnectMed, other than as an independent Practitioner in terms of this Agreement.</p>
+<p>9.4 Nothing in this clause shall relieve the Practitioner from any of his/her professional and civic obligations in law and in terms of this agreement and, in particular, from the Practitioner's obligation to timeously provide the Services at the standards required in this agreement.</p>
+<p><strong>10. SERVICES RENDERED BY THE PRACTITIONER</strong></p>
+<p>10.1. The Practitioner must, acting to the best of his/her ability, provide the Services via the Platform which shall include, without limitation, the following:</p>
+<p>i) consultation with the patient;</p>
+<p>ii) examination of the patient;</p>
+<p>iii) diagnosis of the patient;</p>
+<p>iv) requesting laboratory investigations;</p>
+<p>v) requesting for scans and imaging;</p>
+<p>vi) prescription of medication;</p>
+<p>vii) completing new prescriptions upon the expiration of a previous prescription;</p>
+<p>viii) issuing sick notes;</p>
+<p>ix) referral onto a physical general practitioners; and</p>
+<p>x) referral onto a specialist</p>
+<p>xi) any other services analogous to provision of professional health care.</p>
+<p>10.2. The Services may be provided by:</p>
+<p>i) ConnectMed Text Consult (aka Q&amp;A Tool)</p>
+<p>ii) ConnectMed Video or Phone Consult</p>
+<p>10.3. The ConnectMed Text Consult model enables Patients to connect with Practitioners by posting health related queries on the application, which will be visible on the public health feed. The public queries posted by the Patients are sent to multiple Practitioners, chosen through a fully automated system. Once a Practitioner chooses to respond to a Patient&rsquo;s query by Text Consult, the Practitioner must respond to the Patient within 24 hours of the question being asked and the Practitioner can only answer a maximum of 3 questions by the Patient on the same matter and should the Patient have a further question, the Practitioner must notify the Patient that the question limit has been exhausted and the Patient should book a phone or video consult if they have further questions.</p>
+<p>10.4. The ConnectMed Telephone and/or Video Consult model enables Users to connect with Practitioners by booking an appointment (through the AnyClinical officer and SpecificClinical officer Models) and having a telephone call or live audio-video interaction. Practitioners and Users complete this interaction over a special software application provided by ConnectMed. The public queries posted by the Users are sent to multiple Practitioners, chosen through a fully automated system. ConnectMed will not be responsible for the Practitioners chosen to respond to the queries.</p>
+<p>10.5. The Practitioner must abide by all bona fide work practices in his/her relationship with ConnectMed; and use his/her best endeavours to properly conduct, improve, extend, develop, promote, protect and preserve the business interest, reputation and goodwill of ConnectMed and carry out his/her duties in a proper, loyal and efficient manner.</p>
+<p>10.6. The illnesses that the Practitioner is able to treat via the Platform, once diagnosis has taken place, will be published to the Practitioner from time to time. Should the particular illness be one that the Practitioner is not able to treat via the Platform the Practitioner will refer the patient to a physical general practitioner examination, alternatively to a specialist.</p>
+<p><strong>11. THE PRACTITIONER'S OBLIGATIONS</strong></p>
+<p>11.1 ConnectMed enables the Practitioners to connect with Patients through the Platform through two methods:</p>
+<p>i) AnyClinical officer model &ndash; this model enables a Patient to consult with the first Practitioner that is available to respond to their query/request to consult for medical reasons; and</p>
+<p>ii) SpecificClinical officer model &ndash; this model enable a Patient to query/request to consult a specific Clinical officer listed on the Website.</p>
+<p>11.2 The models are available on the Booking facility available on the website/Platform. The Booking facility is fully automated.</p>
+<p>11.3 The Practitioner must:</p>
+<p>i) perform the Services competently, efficiently and timeously with a degree of skill and care as can reasonably be expected from a similarly qualified and experienced specialist or expert in the field;</p>
+<p>ii) once having committed to being "Committed", the Practitioner must be sitting at a computer, ready to take patients, at any time, during the Committed Block;</p>
+<p>iii) once having committed to being "On Standby": be sitting at a computer, ready to take patients, 1 hour after being notified during the On Standby block and for the duration of the On Standby Block;</p>
+<p>iv) once having committed to being "Available by Appointment" honour any appointments booked during the designated Blocks with the specified lead time; however "Available by Appointment" hours may be changed at any time should the Practitioner have no appointments booked;</p>
+<p>v) once having committed to give a patient a consult, after being notified as an "Available" Clinical officer, the Practitioner must be sitting at a computer, ready to serve the given patient at the specified appointment time;</p>
+<p>vi) once having committed to answering a patient query: answer the query and up to 3 follow up queries from the patient within 24 hours of each query submission.</p>
+<p>11.4 In any case, when providing the Services, a Practitioner must:</p>
+<p>i) be on the Platform 5 minutes prior to the commencement of the Block and test the necessary hardware and software; and</p>
+<p>ii) cancel any agreed "Committed" or "On Standby" time no less than 7 days prior to the commencement of the Block without penalty;</p>
+<p>iii) cancel any agreed "Committed" or "On Standby" time 7 days or less prior to the commencement of the Block with penalty, at the discretion of ConnectMed;</p>
+<p>iv) cancel any patients that booked an appointment under the "Available by Appointment" status at least 24 hours; failing to do this could result in penalties or removal from the Platform.</p>
+<p>v) cancel any patient consults that the Practitioner claimed through the "Available" status at least 24 hours; failing to do this could result in penalties or removal from the platform;</p>
+<p>vi) Answer any text queries within 24 hours or face penalties or removal from the platform.</p>
+<p>vii) ensure that he or she has access to all the tools, equipment, materials and other resources in particular a desktop and/ or laptop computer which bears the required hardware and software specifications as indicated below that is necessary to execute the Services, including:</p>
+<p>a) operating system: Apple OSX (Mountain Lion 10.8 or above);</p>
+<p>b) Microsoft Windows (Version 7 or above);</p>
+<p>c) Browser: Chrome (Most recent version); and</p>
+<p>d) Hardware: Camera, Microphone, Audio Output (either speakers or Headphones).</p>
+<p>viii) not do anything that will cause ConnectMed's business operations to be disrupted or disparaged;</p>
+<p>ix) maintain his/her registration with the KMPDB and maintain his/her yearly registration and regular and mandatory certifications to serve as a health practitioner in Kenya;</p>
+<p>x) complete the ConnectMed Onboarding Training prior to embarking with his /her Services;</p>
+<p>xi) complete ongoing training programs prescribed by ConnectMed which will not exceeding 5 (five) required hours per year;</p>
+<p>xii) comply with all reasonable directives, rules and regulations provided by ConnectMed from time to time;</p>
+<p>xiii) maintain a patient rating of 3/5 on average for any 3 month period;</p>
+<p>xiv) maintain and administer his/her own tax affairs; and</p>
+<p>xv) ensure that the he/she is in a private, quiet space when performing the Services and has a private internet connection.</p>
+<p>xvi) The Practitioner understands and accepts that ConnectMed has the right to suspend or terminate the Practitioner&rsquo;s participation on the Platform and provision of the Services for breach of any of the provisions of these terms and conditions and any failure to attend to a Patient at the time required to attend to the Patient in accordance with the booking/reserving of the Practitioner to provide the Services on the platform. Any such breach will lead to the imposition of such penalties on the Practitioner as ConnectMed may in its sole discretion determine but at a minimum, the Practitioner must refund the entire sums paid by ConnectMed for the consultation that the Practitioner failed to deliver.</p>
+<p>11.5 Further, the Practitioner confirms understanding the following obligations and hereby commits to comply with them:</p>
+<p>i) If a Practitioner accepts to answer a patient question, the Practitioner shall reply to the patient after receiving patient&rsquo;s communication within 24 hours. In case of non-compliance with regard to reverting/ adhering to the applicable laws/rules/regulations/guidelines by the Practitioner, ConnectMed has the right to show other available Practitioners to the patient or remove Practitioners from the platform/ConnectMed application/site.</p>
+<p>ii) The Practitioner understands and agrees that, ConnectMed shall at its sole discretion, at any time be entitled to, show other Practitioners available for consultation.</p>
+<p>iii) The Practitioner further understands that, there is a responsibility on the Practitioner to treat the patients on this model, as the Practitioner would have otherwise treated the patient on a physical one-on-one consultation model.</p>
+<p>iv) The Practitioner has the discretion to end any consultation at any point in time in cases where the Practitioner feels, it is beyond his/her expertise or his/her capacity to treat the patient. In such cases, patient has the option of choosing other Practitioners or visiting a physical Practitioner.</p>
+<p>v) The Practitioner shall at all times ensure that all the applicable laws that govern the Practitioner shall be followed and utmost care shall be taken in terms of the consultation being rendered.</p>
+<p>vi) The Practitioner acknowledges that should ConnectMed find the Practitioner to be in violation of any of the applicable laws/rules/ regulations/guidelines set out by the authorities then ConnectMed shall be entitled to cancel the consultation with such patient or take such other legal action as may be required.</p>
+<p>vii) It is further understood by the Practitioner that the information that is disclosed by the patient at the time of consultation, shall be confidential in nature and subject to patient and Practitioner privilege.</p>
+<p><strong>12. CONTENT OWNERSHIP AND COPYRIGHT CONDITIONS OF ACCESS</strong></p>
+<p>12.1 The contents listed on the Website are (i) User generated content, or (ii) belong to ConnectMed. The information that is collected by ConnectMed directly or indirectly from the End- Users ("patients") and the Practitioners shall belong to ConnectMed. Copying of the copyrighted content published by ConnectMed on the Website for any commercial purpose or for the purpose of earning profit will be a violation of copyright and ConnectMed reserves its rights under applicable law accordingly.</p>
+<p>12.2 ConnectMed authorizes the User to view and access the content available on or from the Website solely for ordering, receiving, delivering and communicating only as per these term and conditions. The contents of the Website, information, text, graphics, images, logos, button icons, software code, design, and the collection, arrangement and assembly of content on the Website (collectively, "ConnectMed Content"), are the property of ConnectMed and are protected under copyright, trademark and other laws. User shall not modify the ConnectMed Content or reproduce, display, publicly perform, distribute, or otherwise use the ConnectMed Content in any way for any public or commercial purpose or for personal gain.</p>
+<p>12.3 User shall not access the Services for purposes of monitoring their availability, performance or functionality, or for any other benchmarking or competitive purposes.</p>
+<p><strong>13. PAYMENT OF FEES</strong></p>
+<p>13.1 In consideration for the Services provided by the Practitioner in terms of this Agreement and upon authorization given by Melissa McCoy or any other Director of ConnectMed, ConnectMed will:</p>
+<p>i) For the AnyClinical officer Model</p>
+<p>a) pay the Practitioner a Block fee of 500 KES per hour, 300 KES per video or phone consultation, and 100 KES per video or phone review where the Services are rendered while the Practitioner is "Committed"; alternatively</p>
+<p>b) 10.1.1.2 pay the Practitioner a Block fee of 200 KES per hour and 300 KES per video or phone consultation, and 100 KES per video or phone review where the Services are rendered while the Practitioner is "On Standby"; alternatively</p>
+<p>c) pay the Practitioner 300 KES per video or phone consultation where the Services are rendered while the Practitioner is Available and Available for Appointment.</p>
+<p>d) Pay the practitioner 100 KES per text consultation</p>
+<p>ii) For the SpecificClinical officer Model</p>
+<p>Pay the Practitioner 20% of the consultation fee that the practitioner has specified</p>
+<p>13.2 By no later than the 7th (seventh) day of the month following the month during which the Services were rendered, ConnectMed will pay the fees (if any have been approved) to the Practitioner.</p>
+<p>13.3 All payments by ConnectMed to the Practitioner will be made by M-PESA transfer to the phone number or pay bill number specified by the Practitioner, from time to time.</p>
+<p>13.4 Payment of the Fee shall not constitute approval by ConnectMed of the Practitioner's performance of any of the Services.</p>
+<p><strong>14. MEETINGS AND REPORTS</strong></p>
+<p>The Practitioner must:</p>
+<p>i) during the period of this Agreement, remain in contact with Melissa McCoy; who is ConnectMed's representative for the purposes of these Terms and Conditions;</p>
+<p>ii) attend all meetings that may be convened by ConnectMed relating to the Services;</p>
+<p>iii) subject him or herself to review of Services rendered where past consultation recordings and patient reviews will be discussed. The first review will commence (3) three months after the commencement of these Terms and Conditions and every 6 (six) months thereafter and/or at any time ConnectMed may so require with 7 days&rsquo; notice to the Practitioner; and</p>
+<p>iv) when requested to do so, submit written reports to ConnectMed regarding the performance of the Services.</p>
+<p><strong>15. SUB-CONTRACTING AND CESSION</strong></p>
+<p>The Practitioner may not cede any of his/her rights or sub-contract, delegate or assign any of the obligations in terms of this Agreement.</p>
+<p><strong>16. TERMINATION OF THE AGREEMENT</strong></p>
+<p>These Terms and Conditions shall terminate on the earliest of the following events:</p>
+<p>i) upon either party giving to the other not less than one week's notice; and</p>
+<p>ii) immediately upon notice given by ConnectMed to the Practitioner if the Practitioner, in ConnectMed&rsquo;s sole discretion, is in breach of any of the terms and conditions set out in this Agreement.</p>
+<p><strong>17. DISCLOSURE</strong></p>
+<p>17.1 The Practitioner is obliged to disclose forthwith to ConnectMed any criminal offence specified in the Criminal Procedure Act (of the relevant Country), of any offence under Kenyan Statute or any amendment or variations thereof from time to time.</p>
+<p>17.2 The Practitioner is obliged to disclose forthwith to ConnectMed any active disciplinary proceedings with KMPDB or of any court proceedings in respect of their professional practice.</p>
+<p><strong>18. CONFIDENTIAL INFORMATION</strong></p>
+<p>10.1. For the purposes of this Agreement, all information relating to ConnectMed and/or its business which is disclosed to or becomes known to the Practitioner is "Confidential Information", except information which is in the public domain or is public knowledge.</p>
+<p>10.2. For the purpose of clarity, examples of Confidential Information relating to Connectmed include but are not limited to:</p>
+<p>i) Personal Information;</p>
+<p>ii) all information relating to ConnectMed's Platform and the cost of such services offered by ConnectMed;</p>
+<p>iii) information relating to the supply of those services;</p>
+<p>iv) names, credit records and other details of current and prospective patients and customers, suppliers and trade connections;</p>
+<p>v) financial information such as finance agreements, operating results, budgets, financial reports and financial statements;</p>
+<p>vi) business and financial strategies and strategic plans;</p>
+<p>vii) management and administration systems, including accounting systems, any information related to medicinal items, the supply and use thereof, service systems, inventory control systems and personnel management systems;</p>
+<p>viii) contact details of professional advisers and all opinions, advice and documentation supplied by such advisers;</p>
+<p>ix) details of computer systems and software;</p>
+<p>x) marketing and advertising material and strategies.</p>
+<p>10.3. The Practitioner agrees to:</p>
+<p>i) keep all Confidential and /or Personal Information in the strictest confidence;</p>
+<p>ii) not utilise the Confidential and /or Personal Information for any purpose other than as contained in these Terms and Conditions; and</p>
+<p>iii) obtain express written permission of the patient for the collection, collation, processing or disclosure of any Personal Information on that patient unless he/she is permitted or required to do so by law;</p>
+<p>iv) refrain from electronically requesting, collecting, collating, processing or storing Personal Information from a patient which is not necessary for the lawful purpose for which the Personal Information is required;</p>
+<p>v) disclose in writing to the patient the specific purpose for which any Personal Information is being requested, collected, collated, processed or stored and may not use the information received for any other purpose than the disclosed purpose;</p>
+<p>vi) ensure that further processing of Personal Information is in accordance with or compatible with the purpose for which it was initially collected;</p>
+<p>vii) ensure that Personal Information is obtained and processed lawfully and in a reasonable manner that does not unnecessarily infringe on the privacy of the patient;</p>
+<p>viii) ensure that the Personal Information collected is complete, accurate, not misleading and updated where necessary;</p>
+<p>ix) delete or destroy all Personal Information which has become obsolete.</p>
+<p><strong>19. RESTRAINT OF TRADE</strong></p>
+<p>The Practitioner undertakes in favour of ConnectMed that, in order to protect the proprietary interests of ConnectMed, he/she shall not for the duration during which he provides the Services to ConnectMed and for a period of 6 (six) months calculated from the termination date ("restraint period") , anywhere in the Prescribed Area, whether directly or indirectly, be employed by, concerned, engaged and /or associated with, interested in and/or form part of any business or concern, in any capacity whatsoever which:</p>
+<p>i) conducts business in competition with ConnectMed&rsquo;s Platform; or</p>
+<p>ii) renders any type of service that is identical or similar to the Services rendered through the Platform by the Practitioner as at the Termination Date.</p>
+<p><strong>20. GENERAL INDEMNITY</strong></p>
+<p>The Practitioner indemnifies ConnectMed against all claims which may be made against ConnectMed and against all losses, damages, costs (including costs on an attorney and own client scale) or any other liability, which ConnectMed may incur or suffer arising from or in connection with any act or omission (including negligence) on the part of the Practitioner except to the extent to which such claims, losses, damages, costs or liabilities arise from the unlawful and willful act or omission of ConnectMed.</p>
+<p><strong>21. GENERAL TERMS</strong></p>
+<p>21.1 Any latitude, extension of time or other indulgence which may be granted to the Practitioner by ConnectMed or any failure by ConnectMed to enforce any of its rights under this Agreement at any time shall not, under the circumstances, be deemed to be a waiver of any of ConnectMed's rights thereafter to enforce and compel strict compliance with the terms and conditions of this Agreement.</p>
+<p>21.2 No variation of this Agreement shall be of any force or effect unless recorded in writing and signed by or on behalf of the parties by the representatives, duly authorised thereto.</p>
+<p>21.3 If any provision of these terms and conditions is held by any competent authority to be invalid or unenforceable in whole or in part, the validity of the other provisions hereof and the remainder of the provisions in question shall not be affected thereby.</p>
+<p>21.4 As the Practitioner is not an employee of ConnectMed, the Practitioner shall only be remunerated for actual Services rendered to ConnectMed and shall not be entitled to any leave, sick leave or other employment benefits prescribed by law.</p>
+<p>21.5 Any control and supervision exercised by ConnectMed over the Contractor shall only take place in the form of, and to the extent required, to give effect to a proper discharge of the duties of the Practitioner in the terms herein. Such control and supervision shall not establish the existence of an employment relationship between the parties.</p>
+<p>21.6 These terms and conditions are governed by Kenyan law and any dispute between the Parties shall be determined by Kenyan Courts.</p>
+<p>21.7 Any notice to be given by one party to the other hereunder shall either be communicated verbally initially or confirmed in writing immediately thereafter, or be communicated directly in writing.</p>
+<p><strong>22. RIGHTS AND OBLIGATIONS RELATING TO CONTENT</strong></p>
+<p>22.1 ConnectMed hereby informs Users that they are not permitted to host, display, upload, download, modify, publish, transmit, update, share or in any manner handle any information that:</p>
+<p>i) belongs to another person and to which the User does not have any right to;</p>
+<p>ii) is harmful, harassing, blasphemous, defamatory, obscene, pornographic, pedophilic, libelous, invasive of another's privacy, hateful, or racially, ethnically objectionable, disparaging, discriminatory, relating or encouraging money laundering or gambling, or otherwise unlawful in any manner whatever;</p>
+<p>iii) harms minors in any way;</p>
+<p>iv) infringes any patent, trademark, copyright or other proprietary rights;</p>
+<p>v) violates any law for the time being in force;</p>
+<p>vi) deceives or misleads the addressee about the origin of such messages or communicates any information which is grossly offensive or menacing in nature;</p>
+<p>vii) impersonates another person;</p>
+<p>viii) contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer resource;</p>
+<p>ix) threatens the unity, integrity, defence, security or sovereignty of Kenya, friendly relations with foreign states, or public order or causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting to any other nation.</p>
+<p>22.2 Users are also prohibited from:</p>
+<p>i) violating or attempting to violate the integrity or security of the Website or any ConnectMed Content;</p>
+<p>ii) transmitting any information (including job posts, messages and hyperlinks) on or through the Website that is disruptive or competitive to the provision of Services by ConnectMed;</p>
+<p>iii) intentionally submitting on the Website any incomplete, false or inaccurate information;</p>
+<p>iv) making any unsolicited communications to other Users;</p>
+<p>v) using any engine, software, tool, agent or other device or mechanism (such as spiders, robots, avatars or intelligent agents) to navigate or search the Website;</p>
+<p>vi) attempting to decipher, decompile, disassemble or reverse engineer any part of the Website;</p>
+<p>vii) copying or duplicating in any manner any of the ConnectMed content or other information available from the Website;</p>
+<p>viii) framing or hot linking or deep linking any ConnectMed Content.</p>
+<p>ix) circumventing or disabling any digital rights management, usage rules, or other security features of the Software.</p>
+<p>22.3 ConnectMed, upon obtaining knowledge by itself or being brought to actual knowledge by an affected person in writing or through email signed with electronic signature about any such information as mentioned above, shall be entitled to disable such information that is in contravention of Clauses 22.1 and 22.2. ConnectMed shall also be entitled to preserve such information and associated records for production to governmental authorities for investigation purposes.</p>
+<p>22.4 In case of non-compliance with any applicable laws, rules or regulations, or these terms and conditions by a User, ConnectMed has the right to immediately terminate the access or usage rights of the User to the Website and Services and to remove non-compliant information from the Website.</p>
+<p>22.5 ConnectMed may disclose or transfer User-generated information to its affiliates or governmental authorities in such manner as permitted or required by applicable law, and you hereby consent to such transfer.</p>
+<p>22.6 ConnectMed respects the intellectual property rights of others and we do not hold any responsibility for any violations of any intellectual property rights by you.</p>
+<p><strong>23. DATA AND PRIVACY POLICY</strong></p>
+<p>23.1 We developed this privacy policy ("Privacy Policy") to explain how we collect, use, and disclose information from and/or about you when you use the Site or the Services. THE SITE WILL BE COLLECTING AND TRANSMITTING PERSONAL, MEDICAL AND HEALTH-RELATED INFORMATION ABOUT YOU. BY USING THE SITE, YOU AGREE THAT WE CAN COLLECT AND USE YOUR PERSONAL AND OTHER INFORMATION AS DESCRIBED IN THIS PRIVACY POLICY. IF YOU DO NOT AGREE, PLEASE DO NOT USE THE SITE.</p>
+<p>23.2 The User is expected to read and understand the Privacy Policy, so as to ensure that he or she has the knowledge of,&nbsp;inter-alia:</p>
+<p>i) the fact that certain information is being collected;</p>
+<p>ii) the purpose for which the information is being collected;</p>
+<p>iii) the intended recipients of the information;</p>
+<p>iv) the nature of collection and retention of the information; and</p>
+<p>v) the name and address of the agency that is collecting the information and the agency that will retain the information; and</p>
+<p>vi) the various rights available to such Users in respect of such information.</p>
+<p>23.3 Important Definitions. When we use the term "Personal Information" in this Privacy Policy, we mean information about you that is personally identifiable to you, such as your contact information (e.g., name, address, email address, or telephone number), personally identifiable health or medical information ("Health Information"), and any other non-public information that is associated with such information (collectively, "Personal Information"). When we use the term "De-Identified Information", we mean information that is neither used nor intended to be used to personally identify an individual. Lastly, when we use the term "Cookies", we mean the small pieces of information that a Site sends to your browser while you are viewing a website.</p>
+<p>23.4 The Personal information we collect or maintain may include:</p>
+<p>Your name, age, email address, username, password, and other registration information Health Information that you provide us, which may include information or records relating to your medical or health history, health status and laboratory testing results, diagnostic images, and other health related information Health information about you prepared by the health care provider(s) who provide the Services through the Site such as medical records, treatment and examination notes, and other health related information Billing and Bank account and/or M-PESA account details to allow payment information that you provide us, such as credit card information Information about the computer or mobile device you are using, such as what Internet browser you use, the kind of computer or mobile device you use, and other information about how you use the Site Other information you input into the Site or related services</p>
+<p>23.5 We may use your Personal Information for the following purposes (subject to applicable legal restrictions):</p>
+<p>i) To provide you with the Services</p>
+<p>ii) To improve the quality of healthcare through the performance of quality reviews and similar activities</p>
+<p>iii) To create De-identified Information such as aggregate statistics relating to the use of the Service</p>
+<p>iv) To notify you when Site updates are available</p>
+<p>v) To market and promote the Site and the Services to you</p>
+<p>vi) To fulfill any other purpose for which you provide us Personal Information</p>
+<p>vii) For any other purpose for which you give us authorization</p>
+<p>23.6 We may also disclose Personal Information that we collect or you provide (subject to applicable legal restrictions):</p>
+<p>i) To our subsidiaries and affiliates.</p>
+<p>ii) To contractors, service providers and other third parties we use to support our business and who are bound by contractual obligations to keep personal information confidential and use it only for the purposes for which we disclose it to them.</p>
+<p>iii) As required by law, which can include providing information as required by a court order.</p>
+<p>iv) When we believe in good faith that disclosure is necessary to protect your safety or the safety of others, to protect our rights, to investigate fraud, or to respond to a government request.</p>
+<p>v) To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of ConnectMed&rsquo;s assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which Personal Information maintained by the Site is among the assets transferred.</p>
+<p>vi) For any other purpose disclosed by us when you provide the information.</p>
+<p>23.7 We may use De-Identified Information created by us without restriction.</p>
+<p>23.8 ConnectMed is required to comply with Kenyan health care privacy and security laws and maintain safeguards to protect the security of your health information. The information you provide to your healthcare professional during a medical consultation or therapy session is legally confidential, except for certain legal exceptions. We devote considerable effort toward ensuring that your personal information is secure. Below is an explanation of the manner in which we process and use your personal information: Our Services are deployed via the Heroku Platform and more information on its best practice security policies, which include firewalls and encryption, can be found here: https://www.heroku.com/policy/security. Additionally, we utilize cookies to provide you with the best Website experience; notably, if you lose network connectivity or close your browser momentarily while logged into our Services, you won&rsquo;t lose your current session when you re-access the Website. Further, we employ reasonable physical, electronic and managerial security methods to help protect against unauthorized access to Personal Information, such as encryption. But please be aware that no data transmission over the Internet or data storage facility can be guaranteed to be perfectly secure. As a result, while we try to protect your Personal Information, we cannot ensure or guarantee the security of any information you transmit to us, and you do so at your own risk.</p>
+<p>23.9 In order to access certain features of our Website, we may ask you to provide certain demographic information including your gender, year of birth, address, and payment information. You agree to provide true, accurate, current and complete information about yourself as prompted by the website&rsquo;s registration form. If we have reasonable grounds to suspect that such information is untrue, inaccurate, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the website (or any portion thereof). In addition, neither ConnectMed nor our healthcare professionals will be liable for any loss, injury or harm associated with your provision of false or inaccurate information. Our use of any information you provide to us as part of the registration process is governed by the terms herein.</p>
+<p>23.10 In order to use certain features of our Site, you may need a username and password, which you will receive and/or create through the Site's registration process. We reserve the right to reject or terminate the use of any username that we deem in our sole judgment offensive or inappropriate. In addition, we also reserve the right to terminate the use of any username or account, or to deny access to the Site or any features of the Site, to anyone who violates these Terms and Conditions or who, in our sole judgment, interferes with the ability of others to enjoy our website or infringes the rights of others. You are responsible for maintaining the confidentiality of your password and account, and you are responsible for all activities (whether by you or by others) that occur under your password or account. You agree to notify us immediately of any unauthorized use of your password or account or any other breach of security, and to ensure that you exit from your account at the end of each session. We cannot and will not be liable for any loss or damage arising from your failure to protect your password or account information.</p>
+<p>23.11 ConnectMed shall not be responsible in any manner for the authenticity of the personal information or sensitive personal data or information supplied by the User to ConnectMed or to any other person acting on behalf of ConnectMed.</p>
+<p>23.12 The User is responsible for maintaining the confidentiality of the User&rsquo;s account access information and password, if the User is registered on the Website. The User shall be responsible for all usage of the User&rsquo;s account and password, whether or not authorized by the User. The User shall immediately notify ConnectMed of any actual or suspected unauthorized use of the User&rsquo;s account or password. Although ConnectMed will not be liable for your losses caused by any unauthorized use of your account, you may be liable for the losses of ConnectMed or such other parties as the case may be, due to any unauthorized use of your account.</p>
+<p>23.13 If a User provides any information that is untrue, inaccurate, not current or incomplete (or becomes untrue, inaccurate, not current or incomplete), or ConnectMed has reasonable grounds to suspect that such information is untrue, inaccurate, not current or incomplete, ConnectMed has the right to discontinue the Services to the User at its sole discretion.</p>
+<p>23.14 ConnectMed may use such information collected from the Users from time to time for the purposes of debugging customer support related issues.</p>
+<p>23.15 Information We Collect via Technology</p>
+<p>As you use the Site or the Service, certain information may be passively collected by Cookies, navigational data like Uniform Resource Locators (URLs) and third party tracking services, including:</p>
+<p>a. Site Activity Information. We may keep track of some of the actions you take on the Site, such as the content of searches you perform on the Site.</p>
+<p>b. Access Device and Browser Information. When you access the Site from a computer or other device, we may collect anonymous information from that device, such as your Internet protocol address, browser type, connection speed and access times (collectively, "Anonymous Information").</p>
+<p>c. Cookies. We may use both session Cookies (which expire once you close your web browser) and persistent Cookies to make the Site and Service easier to use, to make our advertising better, and to protect both you and ConnectMed. You can instruct your browser, by changing its options, to stop accepting Cookies or to prompt you before accepting a Cookie from the websites you visit. If you do not accept Cookies, however, you will not be able to stay logged in to the Site. We presently do not honor "Do Not Track" requests across all part of our Site.</p>
+<p>d. Real-Time Location. Certain features of the Site use GPS technology to collect real-time information about the location of your device so that the Site can connect you to a health care provider who is licensed or authorized to provide services in the place where you are located.</p>
+<p>e. Mobile Services. We may also collect non-personal information from your mobile device or computer. This information is generally used to help us deliver the most relevant information to you. Examples of information that may be collected and used include how you use the application(s) and information about the type of device or computer you use. In addition, in the event our application(s) crashes on your mobile device we will receive information about your mobile device model software version and device carrier, which allows us to identify and fix bugs and otherwise improve the performance of our application(s).</p>
+<p>f. Google Analytics. We use Google Analytics to help analyze how users use the Site. Google Analytics uses Cookies to collect information such as how often users visit the Site, what pages they visit, and what other sites they used prior to coming to the Site. We use the information we get from Google Analytics only to improve our Site and Services. Google Analytics collects only the IP address assigned to you on the date you visit the Site, rather than your name or other personally identifying information. Although Google Analytics plants a persistent Cookie on your web browser to identify you as a unique user the next time you visit the Site, the Cookie cannot be used by anyone but Google. Google&rsquo;s ability to use and share information collected by Google Analytics about your visits to the Site is restricted by the Google Analytics Terms of Use and the Google Privacy Policy.</p>
+<p>23.16 This Privacy Policy applies only to information we collect through the Site and in email, text and other electronic communications sent through or in connection with the Site. This policy DOES NOT apply to information collected by any third party. When you click on links on the Site you may leave our site. We are not responsible for the privacy practices of other sites, and we encourage you to read their privacy statements.</p>
+<p>23.17 Members will be able to update some of their information through the Site. Requests to modify any information may also be submitted directly to <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="b0d9ded6dff0d3dfdeded5d3c4ddd5d49ed3df9edbd59e">[email&#160;protected]</a></p>
+<p>23.18 You may request deletion of your Personal Information by us, but please note that we may be required (by law or otherwise) to keep this information and not delete it (or to keep this information for a certain time, in which case we will comply with your deletion request only after we have fulfilled such requirements). When we delete Personal Information, it will be deleted from the active database, but may remain in our archives and we may also retain Anonymous Information about your use of our Service. Once we disclose some of your Personal Information to third parties, we may not be able to access that Personal Information any longer and cannot force the deletion or modification of any such information by the parties to whom we have made those disclosures. After we delete Personal Information, we will retain De-Identified Data and will continue to use De-Identified Data as permitted under this Privacy Policy.</p>
+<p>23.19 We may change this Privacy Policy from time to time in the future. We will post any revised version of the Privacy Policy on this page. Continued use of our Service following notice of such changes will indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes. By using the Site, you are agreeing to our collection, use and disposal of Personal Information and other data as described in this Privacy Policy, both as it exists now and as it is changed from time to time.</p>
+<p><strong>24. TERMINATION</strong></p>
+<p>24.1 ConnectMed reserves the right to suspend or terminate a User&rsquo;s access to the Website and the Services with or without notice and to exercise any other remedy available under law, in cases where:</p>
+<p>i) Such User breaches any terms and conditions of the Agreement;</p>
+<p>ii) A third party reports violation of any of its right as a result of your use of the Services;</p>
+<p>iii) ConnectMed is unable to verify or authenticate any information provide to ConnectMed by a User;</p>
+<p>iv) ConnectMed has reasonable grounds for suspecting any illegal, fraudulent or abusive activity on part of such User; or</p>
+<p>v) ConnectMed believes in its sole discretion that User&rsquo;s actions may cause legal liability for such User, other Users or for ConnectMed or are contrary to the interests of the Website.</p>
+<p>24.2 Once temporarily suspended, indefinitely suspended or terminated, the User may not continue to use the Website under the same account, a different account or re-register under a new account. On termination of an account due to the reasons mentioned herein, such User shall no longer have access to data, messages, files and other material kept on the Website by such User. The User shall ensure that he/she/it has continuous backup of any medical services the User has rendered in order to comply with the User&rsquo;s record keeping process and practices.</p>
+<p><strong>25. LIMITATION OF LIABILITY</strong></p>
+<p>25.1 In no event, including but not limited to negligence, shall ConnectMed, or any of its directors, officers, employees, agents or content or service providers (collectively, the "Protected Entities") be liable for any direct, indirect, special, incidental, consequential, exemplary or punitive damages arising from, or directly or indirectly related to, the use of, or the inability to use, the Website or the content, materials and functions related thereto, the Services, User&rsquo;s provision of information via the Website, lost business or lost End-Users, even if such Protected Entity has been advised of the possibility of such damages. In no event shall the Protected Entities be liable for:</p>
+<p>i) provision of or failure to provide all or any service by Practitioners to End- Users contacted or managed through the Website;</p>
+<p>ii) any content posted, transmitted, exchanged or received by or on behalf of any User or other person on or through the Website;</p>
+<p>iii) any unauthorized access to or alteration of your transmissions or data; or</p>
+<p>iv) any other matter relating to the Website or the Service.</p>
+<p>25.2 In no event shall the total aggregate liability of the Protected Entities to a User for all damages, losses, and causes of action (whether in contract or tort, including, but not limited to, negligence or otherwise) arising from this Agreement or a User&rsquo;s use of the Website or the Services exceed, in the aggregate Kshs. 10,000/- (Kenya Shillings Ten Thousand Only).</p>
+<p><strong>26. INDEMNIFICATION </strong></p>
+<p>You agree to indemnify, defend and hold harmless ConnectMed, its health professionals, directors, employees, agents, subsidiaries, affiliates, licensors, and suppliers, harmless from and against any claim, actions, demands, liabilities and settlements, including without limitation reasonable legal and accounting fees ("Claims"), resulting from, or alleged to result from, your violation of these terms and conditions. In addition, you agree to indemnify, defend and hold harmless your healthcare professional(s) from and against any third party Claims resulting from your lack of adherence with the advice or recommendation(s) of such Healthcare professional.</p>
+<p><strong>27. RETENTION AND REMOVAL</strong></p>
+<p>ConnectMed may retain such information collected from Users from its Website or Services for as long as necessary, depending on the type of information; purpose, means and modes of usage of such information. Computer web server logs may be preserved as long as administratively necessary.</p>
+<p><strong>28. APPLICABLE LAW AND DISPUTE SETTLEMENT</strong></p>
+<p>28.1 You agree that this Agreement and any contractual obligation between ConnectMed and User will be governed by the laws of Kenya.</p>
+<p>28.2 The Kenyan Courts shall have exclusive jurisdiction over any disputes arising out of or in relation to this Agreement, your use of the Website or the Services or the information to which it gives access.</p>
+<p><strong>29. CONTACT INFORMATION GRIEVANCE OFFICER</strong></p>
+<p>29.1 If a User has any questions concerning ConnectMed, the Website, this Agreement, the Services, or anything related to any of the foregoing, ConnectMed customer support can be reached at the following email address: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="50332523243f3d35223331223510313333352323313629317e333f3d">[email&#160;protected]</a> or via the contact form available through the Support button on our homepage at the following hyperlink: www.connectmed.co.ke.</p>
+<p>29.2 If you have any grievance with respect to the Website or the service, including any discrepancies and grievances with respect to processing of information, you can contact our Grievance Officer at: Name: Nairobi Garage Designation: Pine Tree building, Ngong Road, Kilimani, Nairobi, Kenya Email: <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="077472777768757347646869696264736a6263296468296c62">[email&#160;protected]</a> Telephone: +254 790 5099 72 (Ask to be connected to the Grievance Officer) In the event you suffer as a result of access or usage of our Website by any person, please address your grievance to the above person.</p>
+<p>29.3 You should report any security violations to us by sending an email to <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="afc6c1c9c0efccc0c1c1caccdbc2cacb81ccc081c4ca81">[email&#160;protected]</a></p>
+<p>29.4 If you have questions or concerns these Terms and Conditions, please contact us by sending an email to <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="99f0f7fff6d9faf6f7f7fcfaedf4fcfdb7faf6b7f2fcb7">[email&#160;protected]</a></p>
+<p><strong>30. SEVERABILITY</strong></p>
+<p>If any provision of these Terms and Conditions is held by a court of competent jurisdiction or arbitral tribunal to be unenforceable under applicable law, then such provision shall be excluded from these Terms and Conditions and the remainder of these Terms and Conditions shall be interpreted as if such provision were so excluded and shall be enforceable in accordance with its terms; provided however that, in such event, these Terms and Conditions shall be interpreted so as to give effect, to the greatest extent consistent with and permitted by applicable law, to the meaning and intention of the excluded provision as determined by such court of competent jurisdiction or arbitral tribunal.</p>
+<p><strong>31. WAIVER</strong></p>
+<p>No provision of these Terms and Conditions shall be deemed to be waived and no breach excused, unless such waiver or consent shall be in writing and signed by ConnectMed. Any consent by ConnectMed to, or a waiver by ConnectMed of any breach by you, whether expressed or implied, shall not constitute consent to, waiver of, or excuse for any other different or subsequent breach.</p>
+<p>YOU HAVE READ THESE TERMS OF USE AND AGREE TO ALL OF THE PROVISIONS CONTAINED ABOVE</p>
+
+              <p><strong>I have read this document carefully, and understand the risks and benefits of the teleconferencing consultation and have had my questions regarding the procedure explained and I hereby give my informed consent to participate in a telemedicine visit under the terms described herein. By checking the box containing "Agree to the Terms & Conditions" I hereby state that I have read, understood, and agree to the terms of this document.</strong> </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="hidden" name="doctor[address]" id="doctor_address" />
+      <input id="mixpanel_distinct_id_original" type="hidden" name="doctor[mixpanel_distinct_id_original]" />
+      <input type="submit" name="commit" value="Register as Clinical officer" class="btn btn-primary block full-width m-b" />
+</form>    <p class="text-muted text-center"><small>Already have an account?</small></p>
+    <a class="btn btn-sm btn-white btn-block" href="signin.html">Login</a><br>
+    <p class="text-muted text-center"><small>Not a Clinical officer?</small></p>
+    <a class="btn btn-sm btn-white btn-block" href="../patient/signup.html">Register as Patient</a>
+    <p class="m-t"> <small>ConnectMed &copy; 2015</small> </p>
+  </div>
+</div>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" id="hs-script-loader" async defer src="../../js.hs-scripts.com/1889461.json"></script>
+<script src="../assets/bootstrapFormHelpers/bootstrap-formhelpers-phone-ec5738a49c9bf573f20dc98476000760ec7ee178ec9ec3a8a562c0863d9c33de.js" data-turbolinks-track="true"></script>
+<script type="text/javascript">
+  // Prepare mixpanel key and formatted address
+  $("form").submit(function(e) {
+    $("#mixpanel_distinct_id_original").val(mixpanel.get_distinct_id());
+    var formatted_address = $("#street_address").val() + ";" + $("#city").val() + ", " + $("#postal_code").val();
+    $("#doctor_address").val(formatted_address);
+  });
+</script>
+
+    <!-- Include javascript per-controller - vendor plugins -->
+    
+    <!-- Include javascript per-view -->
+    
+  </body>
+
+<!-- Mirrored from connectmed.co.ke/doctor/signup by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Nov 2020 09:42:36 GMT -->
+</html>
